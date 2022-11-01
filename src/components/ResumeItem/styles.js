@@ -9,15 +9,17 @@ export const Container = styled.div`
   padding: 5px 15px;
   width: 30%;
 
-  @media (max-width: 750px) {
-    width: 20%;
+  @media (max-width: 768px) {
+    width: 24%;
+    padding: 5px 10px;
+    margin: 0;
 
     p {
-      font-size: 12px;
+      font-size: 15px;
     }
 
     span {
-      font-size: 20px;
+      font-size: 16px;
     }
 
     svg {
@@ -31,7 +33,6 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  gap: 10px;
   margin: 20px auto;
 
   svg {

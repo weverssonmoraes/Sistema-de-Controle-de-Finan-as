@@ -10,10 +10,10 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   padding: 15px 0px;
-  gap: 10px;
 
   @media (max-width: 750px) {
     display: grid;
+    padding: 30px 0px;
   }
 `;
 
@@ -30,12 +30,16 @@ export const Input = styled.input`
   padding: 10px 10px;
   font-size: 15px;
   border: 1px solid #ccc;
-  
+
 `;
 
 export const RadioGroup = styled.div`
   display: flex;
   align-items: center;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
 
   input {
     margin-left: 20px;
@@ -52,4 +56,9 @@ export const Button = styled.button`
   cursor: pointer;
   color: white;
   background-color: #111;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+    padding: 20px;
+  }
 `;

@@ -9,9 +9,14 @@ export const Container = styled.div`
 export const Header = styled.h1``;
 
 export const Title = styled.div`
-  padding-top: 20px;
+  padding-top: 30px;
   color: #fff;
   font-weight: 400;
+
+  @media (max-width: 768px) {
+    font-size: 27px;
+  }
+
   span {
     font-weight: 600;
     -webkit-background-clip: text;
