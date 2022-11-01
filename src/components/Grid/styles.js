@@ -17,6 +17,9 @@ export const Tbody = styled.tbody``;
 export const Tr = styled.tr``;
 
 export const Th = styled.th`
+  @media (max-width:768px) {
+    font-size: 14px;
+  }
   text-align: start;
   border-bottom: inset;
   padding-bottom: 5px;
