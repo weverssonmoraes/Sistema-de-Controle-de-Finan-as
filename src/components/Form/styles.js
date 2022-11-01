@@ -30,6 +30,7 @@ export const Input = styled.input`
   padding: 10px 10px;
   font-size: 15px;
   border: 1px solid #ccc;
+  
 `;
 
 export const RadioGroup = styled.div`
