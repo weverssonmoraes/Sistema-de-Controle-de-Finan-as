@@ -14,7 +14,7 @@ export const Title = styled.div`
   font-weight: 400;
 
   @media (max-width: 768px) {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   span {
